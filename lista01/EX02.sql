@@ -1,0 +1,6 @@
+USE VENDAS;
+CREATE TABLE Produto(
+Codigo_Produto INT PRIMARY KEY,
+Descricao_Produto VARCHAR(30),
+Preco_Produto FLOAT
+) DEFAULT CHARSET UTF8MB4;
